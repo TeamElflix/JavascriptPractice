@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+  box-sizing: border-box;
+  font-family: Raleway;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+.button-container {
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+}
