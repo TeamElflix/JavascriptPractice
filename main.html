@@ -8,16 +8,62 @@
   </head>
   <body>
     <header id="header">
-      <div class="upperEmptySpace">빈공간</div>
+      <div class="upperEmptySpace">
+        빈공간
+        <div id="openSlideMenu">메뉴</div>
+        <div id="slideMenu">
+          <div id="closeSlideMenu">닫기</div>
+          <ol>
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+          </ol>
+        </div>
+      </div>
       <div class="upperLeftSpace">
         <div class="logo">로고</div>
-        <nav>
-          <ol>
-            <li class="one"><a href="#">메뉴1</a></li>
-            <li class="two"><a href="#">메뉴2</a></li>
-            <li class="three"><a href="#">메뉴3</a></li>
-            <li class="four"><a href="#">메뉴4</a></li>
-            <li class="five"><a href="#">메뉴5</a></li>
+        <nav class="menuBar">
+          <ol class="menu">
+            <li class="visibleMenu">
+              <a href="#">메뉴1</a>
+              <ul class="foldedMenu">
+                <li><a href="#">메뉴 1 하위메뉴1</a></li>
+                <li><a href="#">메뉴 1 하위메뉴2</a></li>
+                <li><a href="#">메뉴 1 하위메뉴3</a></li>
+              </ul>
+            </li>
+            <li class="visibleMenu">
+              <a href="#">메뉴2</a>
+              <ul class="foldedMenu">
+                <li><a href="#">메뉴 2 하위메뉴1</a></li>
+                <li><a href="#">메뉴 2 하위메뉴2</a></li>
+                <li><a href="#">메뉴 2 하위메뉴3</a></li>
+              </ul>
+            </li>
+            <li class="visibleMenu">
+              <a href="#">메뉴3</a>
+              <ul class="foldedMenu">
+                <li><a href="#">메뉴 3 하위메뉴1</a></li>
+                <li><a href="#">메뉴 3 하위메뉴2</a></li>
+                <li><a href="#">메뉴 3 하위메뉴3</a></li>
+              </ul>
+            </li>
+            <li class="visibleMenu">
+              <a href="#">메뉴4</a>
+              <ul class="foldedMenu">
+                <li><a href="#">메뉴 4 하위메뉴1</a></li>
+                <li><a href="#">메뉴 4 하위메뉴2</a></li>
+                <li><a href="#">메뉴 4 하위메뉴3</a></li>
+              </ul>
+            </li>
+            <li class="visibleMenu">
+              <a href="#">메뉴5</a>
+              <ul class="foldedMenu">
+                <li><a href="#">메뉴 5 하위메뉴1</a></li>
+                <li><a href="#">메뉴 5 하위메뉴2</a></li>
+                <li><a href="#">메뉴 5 하위메뉴3</a></li>
+              </ul>
+            </li>
           </ol>
         </nav>
       </div>
@@ -36,9 +82,29 @@
       </div>
     </main>
 
+    <section id="event">
+      <div class="adsContainer">
+        <ul class="ads">
+          <li class="ad"><img src="ad1.jpg" /></li>
+          <li class="ad"><img src="ad2.jpg" /></li>
+          <li class="ad"><img src="ad3.jpg" /></li>
+          <li class="ad"><img src="ad4.jpg" /></li>
+          <li class="ad"><img src="ad1.jpg" /></li>
+        </ul>
+      </div>
+
+      <div class="constAds">
+        <div class="constAd active"><img src="constad1.jpg" /></div>
+        <div class="constAd"><img src="constad2.jpg" /></div>
+        <div class="constAd"><img src="constad3.jpg" /></div>
+      </div>
+    </section>
+
     <footer id="footer">
       <div class="CopyRight">Copyright</div>
       <div class="address">연락처</div>
     </footer>
   </body>
+
+  <script src="main.js"></script>
 </html>
