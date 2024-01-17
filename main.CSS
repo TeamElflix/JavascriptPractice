@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  height: 996px;
+  width: 950px;
+  text-align: center;
+  background-color: none;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ol,
+ul {
+  list-style: none;
+}
+#header {
+  width: 100%;
+  height: 35%;
+}
+#header div.upperEmptySpace {
+  width: 100%;
+  height: 30%;
+  background-color: darkkhaki;
+}
+#header div.upperLeftSpace {
+  width: 73%;
+  height: 70%;
+  background-color: none;
+  float: left;
+}
+#header div.logo {
+  width: 100%;
+  height: 70%;
+  background-color: blueviolet;
+}
+#header div.upperLeftSpace nav {
+  width: 100%;
+  height: 30%;
+  background-color: brown;
+}
+
+#header div.upperLeftSpace nav ol li {
+  width: 20%;
+  height: 100%;
+  float: left;
+  line-height: 80px;
+}
+
+#header div.mainButton {
+  width: 27%;
+  height: 70%;
+  background-color: cornflowerblue;
+  float: right;
+}
+
+#main {
+  clear: both;
+  width: 100%;
+  height: 55%;
+  background-color: darkseagreen;
+}
+#main div.leftSection {
+  width: 73%;
+  height: 100%;
+  background-color: bisque;
+  float: left;
+}
+
+#main div.leftSection article {
+  width: 50%;
+  height: 50%;
+  background-color: bisque;
+  border: 2px solid black;
+  float: left;
+}
+#main div.rightSection {
+  width: 27%;
+  height: 100%;
+  background-color: aqua;
+  float: right;
+}
+#main div.rightSection div.logInOutSection {
+  width: 100%;
+  height: 30%;
+  background-color: cadetblue;
+}
+#footer {
+  width: 100%;
+  height: 10%;
+  background-color: darkslateblue;
+}
+#footer .CopyRight {
+  width: 50%;
+  height: 100%;
+  background-color: chartreuse;
+  float: left;
+}
+#footer .address {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+@media (min-width: 300px) and (max-width: 560px) {
+  body {
+    width: 400px;
+    height: 100%;
+  }
+  #header {
+    width: 100%;
+    height: 100%;
+  }
+  #header div.upperEmptySpace {
+    width: 100%;
+    height: 15%;
+    background-color: darkkhaki;
+  }
+  #header div.upperLeftSpace {
+    width: 100%;
+    height: 35%;
+    background-color: none;
+    float: none;
+  }
+  #header div.logo {
+    width: 100%;
+    height: 70%;
+    background-color: blueviolet;
+  }
+  #header div.upperLeftSpace nav {
+    width: 100%;
+    height: 30%;
+    background-color: brown;
+  }
+  #header div.upperLeftSpace nav ol li {
+    line-height: 50px;
+  }
+  #header div.mainButton {
+    width: 100%;
+    height: 50%;
+    background-color: cornflowerblue;
+    float: none;
+  }
+
+  #main {
+    width: 100%;
+    height: 100%;
+    background-color: darkseagreen;
+  }
+  #main div.leftSection {
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    float: none;
+  }
+
+  #main div.leftSection article {
+    width: 100%;
+    height: 25%;
+    background-color: bisque;
+    float: none;
+  }
+  #main div.rightSection {
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
+    float: none;
+  }
+  #main div.rightSection div.logInOutSection {
+    width: 100%;
+    height: 10%;
+    background-color: cadetblue;
+  }
+  #footer {
+    width: 100%;
+    height: 20%;
+    background-color: darkslateblue;
+  }
+  #footer .CopyRight {
+    width: 100%;
+    height: 50%;
+    background-color: chartreuse;
+    float: left;
+  }
+  #footer .address {
+    width: 100%;
+    height: 50%;
+    float: right;
+  }
+}
